@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevName - Frontend Portfolio</title>
+    
+    <!-- Use Inter font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Sticky Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <!-- Logo/Name -->
+                <a href="#home" class="logo">
+                    &lt;Dev /&gt;
+                </a>
+                
+                <!-- Desktop Nav Links -->
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact" class="btn-primary" style="margin-left: 1.5rem;">Contact</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="mobile-menu-button" aria-label="Toggle navigation menu">
+                    <svg style="width: 24px; height: 24px;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+        
+        <!-- Mobile Menu (Collapsed by default) -->
+        <div id="mobile-menu" class="nav-menu">
+            <div class="container" style="padding-top: 0.5rem; padding-bottom: 0.75rem;">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact" class="btn-primary" style="margin-top: 0.5rem; padding: 0.5rem 1rem; width: 100%;">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <!-- 1. Hero Section -->
+        <section id="home">
+            <div class="hero-section">
+                <!-- Text Content -->
+                <div class="hero-content">
+                    <p class="hero-pre-title">Hi, my name is</p>
+                    <h1 class="hero-title">
+                        Aditya Chauhan.
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I craft seamless user experiences.
+                    </h2>
+                    <p class="hero-body">
+                        A passionate Frontend Developer specializing in building exceptional, responsive, and high-performance web applications using modern JavaScript frameworks.
+                    </p>
+                    <a href="#projects" class="btn-primary">
+                        View My Work
+                    </a>
+                </div>
+
+                <!-- Image Placeholder -->
+                <div class="hero-image">
+                    <!-- Placeholder SVG for a tech/code icon -->
+                    <svg style="width: 16rem; height: 16rem; color: var(--accent-teal); opacity: 0.7;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 18l3-3-3-3M8 6l-3 3 3 3"></path>
+                        <path d="M10 20l4-16"></path>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. About Me Section -->
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm Alex, a self-taught and highly motivated frontend developer with 5+ years of experience transforming complex requirements into elegant, interactive user interfaces. My primary focus is on performance, accessibility, and writing clean, maintainable code.
+                    </p>
+                    <p>
+                        My journey began with vanilla HTML, CSS, and JavaScript, giving me a strong foundation in the core web technologies. I quickly adopted **React** to handle complex state management and scale applications efficiently. I enjoy the challenge of optimizing render times and ensuring pixel-perfect responsiveness across all devices.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new UI/UX design trends or contributing to open-source projects. I believe continuous learning is key to staying ahead in the fast-paced world of web development.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <!-- Placeholder for a personal image -->
+                    <div class="image-placeholder">
+                        <div class="image-placeholder-inner"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Skills Section -->
+        <section id="skills">
+            <h2 class="section-title">My Toolkit</h2>
+            
+            <div class="skills-grid">
+                <!-- Skill Card Template 1 -->
+                <div class="skill-card">
+                    <span class="skill-icon" role="img" aria-label="JavaScript Icon">📜</span>
+                    <p class="skill-name">JavaScript </p>
+                    <p class="skill-description">Core Language</p>
+                </div>
+
+                <!-- Skill Card Template 2 -->
+                <div class="skill-card">
+                    <span class="skill-icon" role="img" aria-label="CSS Icon">🎨</span>
+                    <p class="skill-name">CSS3 / SASS</p>
+                    <p class="skill-description">Rapid Styling</p>
+                </div>
+
+                <!-- Skill Card Template 3 -->
+                <div class="skill-card">
+                    <span class="skill-icon" role="img" aria-label="HTML5 Icon">📰</span>
+                    <p class="skill-name">HTML5</p>
+                    <p class="skill-description">Semantic Markup</p>
+                </div>
+
+                <!-- Skill Card Template 4 -->
+                <div class="skill-card">
+                    <span class="skill-icon" role="img" aria-label="Git Icon">🌳</span>
+                    <p class="skill-name">Git & GitHub</p>
+                    <p class="skill-description">Version Control</p>
+                </div>
+
+                <!-- Skill Card Template 5 -->
+                <div class="skill-card">
+                    <span class="skill-icon" role="img" aria-label="Node.js Icon">🐍</span>
+                    <p class="skill-name">Python</p>
+                    <p class="skill-description">Programming language</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Projects Section -->
+        <section id="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="projects-grid">
+                
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <h3>Amazon Clone</h3>
+                    <p>Developed a static front-end clone of the Amazon homepage, replicating layout, product sections, navigation bar, and
+                    styling. Focused on responsive design and visual accuracy.</p>
+                    <!-- <p class="tech-stack">Tech Stack: HTML, CSS Modules</p> -->
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/taskflow" target="_blank">
+                            Code
+                        </a>
+                        <span style="color: #6b7280;">|</span>
+                        <a href="#" target="_blank">
+                            Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <h3>E-commerce API Integration</h3>
+                    <p>Developed a high-fidelity e-commerce storefront focusing on optimized image loading and responsive product galleries, fetching data from a REST API.</p>
+                    <p class="tech-stack">Tech Stack: HTML,CSS,Js</p>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/ecommerce-store" target="_blank">
+                            Code
+                        </a>
+                        <span style="color: #6b7280;">|</span>
+                        <a href="#" target="_blank">
+                            Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <h3>Portfolio Generator</h3>
+                    <p>A utility tool that allows users to input details and generate a static, customizable portfolio site template using vanilla JS DOM manipulation.</p>
+                    <p class="tech-stack">Tech Stack: HTML, Vanilla JavaScript, SCSS</p>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/portfolio-generator" target="_blank">
+                            Code
+                        </a>
+                        <span style="color: #6b7280;">|</span>
+                        <a href="#" target="_blank">
+                            Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Contact Section -->
+        <section id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="intro-text">
+                Have a project in mind or just want to chat about frontend development? My inbox is always open!
+            </p>
+
+            <div class="contact-details">
+                <a href="mailto:aditya.kchauhan04@gmail.com" style="margin-bottom: 1rem; display: block;">
+                    aditya.kchauhan04@gmail.com
+                </a>
+                <p id="email-to-copy" class="email-copy" onclick="copyToClipboard('aditya.kchauhan04@gmail.com')">
+                    aditya.kchauhan04@gmai.com 
+                    <svg style="width: 20px; height: 20px;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m-7 4h7m-7 4h7m-7 4h7"></path></svg>
+                </p>
+
+                <p id="copy-message" style="display: none;">Copied to clipboard!</p>
+
+                <div class="social-links">
+                    <a href="https://github.com/Aditya-Chauhan-Dev" target="_blank" aria-label="GitHub Profile">
+                        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.165 6.839 9.49.5.092.682-.217.682-.483 0-.237-.009-.868-.013-1.703-2.782.605-3.37-1.34-3.37-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.068-.608.068-.608 1.004.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.913.83.09-.646.351-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.09.39-1.984 1.029-2.685-.103-.253-.446-1.27.098-2.65S9.46 3.6 12 3.6c2.54 0 4.67 1.258 5.373 3.14.544 1.38.201 2.396.098 2.65.64.701 1.029 1.595 1.029 2.685 0 3.842-2.335 4.687-4.567 4.935.359.308.678.917.678 1.846 0 1.334-.012 2.41-.012 2.73 0 .268.18.577.688.484C20.136 20.163 23 16.418 23 12c0-5.523-4.477-10-10-10z"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn Profile">
+                        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM4 9h4v12H4z"/><path d="M6 5.5A1.5 1.5 0 106 2.5a1.5 1.5 0 000 3z"/></svg>
+                    </a>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Aditya. Hand-coded with <span style="color: #ef4444;" role="img" aria-label="love">❤️</span> and Pure CSS.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Interactivity -->
+    <script src="scripts.js"></script>
+</body>
+</html>
