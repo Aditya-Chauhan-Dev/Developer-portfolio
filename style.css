@@ -235,7 +235,7 @@
       color: #6b7280; /* gray-500 */
       font-style: italic;
       font-size: 0.875rem;
-      background-image: url(geEnhancer.jpg.PNG);
+      background-image: url(main.png);
       background-size: cover;
   }
   .image-placeholder-inner::after {
