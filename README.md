@@ -1,10 +1,5 @@
-# Aditya Chauhan - Portfolio
+# Aditya Chauhan's Portfolio
 
-Welcome to my personal portfolio! This repository showcases my projects, skills, and achievements as a developer.
+This repository contains my personal portfolio showcasing my web development projects, skills, and achievements. It includes responsive websites, interactive web applications, and projects built using HTML, CSS, JavaScript, and other modern web technologies. 
 
-## 🚀 About Me
-Hi, I'm **Aditya Chauhan**, a passionate web developer and tech enthusiast. I enjoy building modern, responsive websites and applications, and I’m always eager to learn new technologies.
-
-- 🌱 I’m currently learning **[Your current learning focus, e.g., React, Node.js, etc.]**
-- 💼 I love working on **web development projects and problem-solving**
-- 📫 You can reach me at **[your email]** or connect with me on **[LinkedIn/GitHub]**
+Explore this portfolio to see my work, experience, and areas of expertise. Designed to demonstrate creativity, coding skills, and practical solutions to real-world problems.
